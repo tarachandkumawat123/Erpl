@@ -1,0 +1,60 @@
+name: erpl_learnpress
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  get:
+  flutter_dash: ^1.0.0
+  google_fonts:
+  shared_preferences: ^2.0.15
+  http: ^0.13.5
+  fluttertoast: ^8.1.1
+  form_field_validator:
+  cached_network_image:
+  flutter_pin_code_fields: ^1.1.0
+  percent_indicator:
+  file_picker:
+  image_picker:
+  date_time_picker: ^2.1.0
+  intl: ^0.17.0
+  country_pickers: ^2.0.0
+  intl_phone_field: ^3.1.0
+  phone_form_field: ^7.0.5
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-semiBold.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+        - asset: assets/fonts/Poppins-Light.ttf
+          style: normal
+          weight: 500
+
